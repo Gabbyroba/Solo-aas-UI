@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
     <title>Solo as a Service</title>
 </head>
 <body class="bg-fuchsia-100">
@@ -23,14 +25,11 @@
             </div>
         </div>
         </div>
+        <div id="mapa" class="mt-4" style="height: 400px;"></div>
     </section>
+
     <script type="module" src="/main.js"></script>
-
-    <div class="items-center mt-8">
-        <div class="flex justify-center"> 
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1BI5eoeQAZQdTh2TU43KMe?utm_source=generator" width="55%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        </div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     </div>
-
 </body>
 </html>
